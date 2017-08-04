@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   numbers = [1, 2, 3, 4, 5];
+  oddNumbers = this.numbers.filter(x => x % 2 !== 0);
+  evenNumbers = this.numbers.filter(x => x % 2 === 0);
+
   onlyOdd = false;
 }
