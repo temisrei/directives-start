@@ -11,4 +11,6 @@ export class AppComponent {
   evenNumbers = this.numbers.filter(x => x % 2 === 0);
 
   onlyOdd = false;
+
+  value = 10;
 }
